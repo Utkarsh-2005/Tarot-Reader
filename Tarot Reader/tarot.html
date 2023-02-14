@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Predict your Future </title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+</head>
+<body>
+    <h1>Tarot Reading</h1>
+    <div id="conatainer">
+        <div id="card1" class="main">
+            <div id="b1" class="button">
+                <img src="tarot.jpg"/>
+            </div>
+            <p id="first"></p>
+        </div>
+        
+        <div id="card2" class="main">
+            <div id="b2" class="button">
+                <img src="tarot.jpg"/>
+            </div>
+            <p id="second"></p>
+        </div>
+        <div id="card3" class="main">
+            <div id='b3' class="button">
+                <img src="tarot.jpg"/>
+            </div>
+            <p id="third"></p>
+        </div>
+    </div>
+    <div class="contain">
+        <div class="center">
+          <button class="btn" onclick="redraw()">
+            <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+              <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+              <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+            </svg>
+            <span>Redraw</span>
+          </button>
+        </div>
+      </div>
+</body>
+</html>
+<script src="script.js"></script>

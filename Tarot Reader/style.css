@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Trirong');
+body{
+    background-image: url("depositphotos_43488949-stock-illustration-traditional-background.jpg");
+}
+h1 {
+    font-family: "Trirong", serif;
+    color:rgb(164, 1, 1);
+    font-size: 50px;
+    text-align: center;
+    background-color:rgba(184, 103, 11, 0.3);
+}
+#conatainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    padding: 5%;
+    padding-top: 2%;
+    }
+@media (max-width: 500px) {
+    div {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+#b1{
+    max-width: min-content;
+    background-image: url(istockphoto-1198064378-170667a.jpg);
+    border-radius: 0.75%;
+    padding-inline: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.special{
+    max-width: min-content;
+    background-image: url(istockphoto-1198064378-170667a.jpg);
+    border-radius: 1.5%;
+    padding-inline: 8px;
+    padding-top: 8px;
+}
+.specialgate{
+    max-width: min-content;
+    background-image: url(istockphoto-1198064378-170667a.jpg);
+    border-radius: 1.5%;
+    padding-inline: 8px;
+    padding-top: 8px;
+    transition: .5s; 
+    opacity: 0;
+}
+#b2{
+    max-width: min-content;
+    background-image: url(istockphoto-1198064378-170667a.jpg);
+    border-radius: 0.75%;
+    padding-inline: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+#b3{
+    max-width: min-content;
+    background-image: url(istockphoto-1198064378-170667a.jpg);
+    border-radius: 0.75%;
+    padding-inline: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+#first{
+    font-family: 'Times New Roman', Times, serif;
+    font-style:inherit;
+    color:azure;
+    padding: 5%;
+}
+.button:hover {
+    box-shadow: 0 0 13px rgba(33,33,33,.4); 
+  }
+.special:hover {
+    box-shadow: 0 0 13px rgba(33,33,33,.4); 
+  }
+#second{
+    font-family: 'Times New Roman', Times, serif;
+    font-style:inherit;
+    color:azure;
+    padding: 5%;
+}
+#third{
+    font-family: 'Times New Roman', Times, serif;
+    font-style:inherit;
+    color:azure;
+    padding: 5%;
+} 
+.main{
+    margin: 1rem 0;
+}
+.contain{
+    position: sticky;
+    bottom:0;
+    /* left: 50%; 
+    transform: translate(-50%, -50%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100px;
+}
+.center {
+    width: 180px;
+    height: 60px;
+    position: absolute;
+
+}
+.btn {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background-color: rgba(37,49,99, 0.6);
+    border: 1px solid #91C9FF;
+    color: #91C9FF;
+    outline: none;
+    transition: 1s ease-in-out;
+
+}
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: rgb(243,240,235);
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+
+}
+.btn:hover {
+    transition: 1s ease-in-out;
+    background:rgba(37,49,99, 0.9);
+
+}
+.btn:hover svg {
+    stroke-dashoffset: -480;
+
+}
+.btn span {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 100;
+    font-family: "Trirong", serif;
+
+}
